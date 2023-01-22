@@ -184,11 +184,11 @@ main {
           min-width: 100%;
 
           &:nth-child(2) {
-            margin-top: 1.5rem;
+            transform: translateY(2rem);
           }
 
           &:nth-child(3) {
-            margin-top: 3rem;
+            transform: translateY(4rem);
           }
         }
       }
