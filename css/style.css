@@ -134,6 +134,9 @@ main {
   height: 50px;
   border-radius: 50%;
 }
+#testimonials ul li h2 {
+  font-size: 1rem;
+}
 #testimonials ul li .profile-data {
   line-height: 1.2;
 }
@@ -208,10 +211,10 @@ main {
     min-width: 100%;
   }
   #testimonials .container ul li:nth-child(2) {
-    transform: translateY(2rem);
+    transform: translateY(1rem);
   }
   #testimonials .container ul li:nth-child(3) {
-    transform: translateY(4rem);
+    transform: translateY(2rem);
   }
 }
 @media (orientation: landscape) and (max-height: 500px) {
