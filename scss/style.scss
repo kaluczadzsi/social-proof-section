@@ -195,3 +195,9 @@ main {
     }
   }
 }
+
+@media (orientation: landscape) and (max-height: 500px) {
+  main {
+    height: 900px;
+  }
+}

@@ -207,4 +207,9 @@ main {
   #testimonials .container ul li:nth-child(3) {
     transform: translateY(4rem);
   }
+}
+@media (orientation: landscape) and (max-height: 500px) {
+  main {
+    height: 900px;
+  }
 }/*# sourceMappingURL=style.css.map */
